@@ -324,7 +324,6 @@ span.post-read-more a:hover {
   font-size: 0.8rem;
   color: rgba(0, 0, 0, 0.44);
   margin-top: 50px;
-  margin-bottom: 62px;
   position: relative;
   background: #fff;
 }
@@ -404,36 +403,8 @@ blockquote {
     height: 359px;
   }
 
-  .alertbar {
-    position: relative !important;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    box-shadow: none !important;
-    padding-right: 14px !important;
-  }
-
   .jumbotron.fortags {
     margin-bottom: 0 !important;
-  }
-
-  .alertbar form {
-    margin-top: 20px;
-  }
-
-  .alertbar span,
-  .alertbar form {
-    display: block;
-  }
-
-  .alertbar input[type="submit"] {
-    border-radius: 3px !important;
-  }
-
-  .alertbar input[type="email"] {
-    margin-right: 0px !important;
-    display: block;
-    border-right: 1px solid #ddd !important;
-    margin-bottom: 10px;
   }
 
   .jumbotron {
@@ -534,66 +505,9 @@ ul.tags li a:hover {
   display: inline-block;
 }
 
-.btn.subscribe {
-  background-color: #1c9963;
-  border-color: #1c9963;
-  color: rgba(255, 255, 255, 1);
-  fill: rgba(255, 255, 255, 1);
-  border-radius: 30px;
-  font-size: 0.85rem;
-  margin-left: 10px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
 .post-top-meta .btn.follow {
   margin-left: 5px;
   margin-top: -4px;
-}
-
-.alertbar {
-  box-shadow: 0 -3px 10px 0 rgba(0, 0, 0, 0.0785);
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  background-color: #fff;
-  width: 100%;
-  padding: 14px 0;
-  z-index: 1;
-  display: none;
-}
-
-.alertbar form {
-  display: inline-block;
-}
-
-.alertbar input[type="email"] {
-  font-size: 0.85rem;
-  padding: 3px 5px 3px 10px;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
-  border: 1px solid #ddd;
-  border-right: 0;
-  margin-right: -10px;
-  height: 34px;
-  letter-spacing: 0.5px;
-  margin-left: 5px;
-}
-
-.alertbar input[type="submit"] {
-  background-color: #1c9963;
-  border: 1px solid #1c9963;
-  color: rgba(255, 255, 255, 1);
-  fill: rgba(255, 255, 255, 1);
-  font-size: 0.85rem;
-  border-radius: 0;
-  padding: 4px 10px;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-  font-weight: 600;
-  height: 34px;
-  letter-spacing: 0.5px;
-  cursor: pointer;
 }
 
 .form-control::-webkit-input-placeholder {
