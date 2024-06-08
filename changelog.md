@@ -6,3 +6,5 @@
 - Removed subscribe popup
 - Removed rating
 - Removed share options
+- Removed authors
+- Clean up the header
