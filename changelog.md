@@ -5,3 +5,4 @@
 - Removed disqus from the code.
 - Removed subscribe popup
 - Removed rating
+- Removed share options

@@ -356,46 +356,12 @@ blockquote {
   margin-bottom: 1.5rem;
 }
 
-.share {
-  text-align: center;
-}
-
-.share p {
-  margin-bottom: 10px;
-  font-size: 0.95rem;
-}
-
-.share ul li {
-  display: inline-block;
-  margin-bottom: 9px;
-}
-
-.share ul {
-  padding-left: 0;
-  margin-left: 0;
-}
-
-.share ul li i.fa {
-  border: 1px solid #ddd;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  border-radius: 50%;
-}
-
 .svgIcon {
   vertical-align: middle;
 }
 
 .sticky-top-offset {
   top: 100px;
-}
-
-@media (min-width: 1024px) {
-  .share ul li {
-    display: block;
-  }
 }
 
 @media (max-width: 999px) {
@@ -441,12 +407,6 @@ blockquote {
   .post-top-meta.authorpage {
     text-align: center;
   }
-}
-
-.share,
-.share a {
-  color: rgba(0, 0, 0, 0.44);
-  fill: rgba(0, 0, 0, 0.44);
 }
 
 .graybg {
@@ -747,12 +707,6 @@ iframe {
     -webkit-order: 1;
     -ms-flex-order: 1;
     order: 1;
-  }
-}
-
-@media (max-width: 768px) {
-  .share {
-    margin-top: 30px;
   }
 }
 
